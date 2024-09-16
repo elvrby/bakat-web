@@ -5,7 +5,7 @@ const IndexComponent: React.FC = () => {
     return (
         <main className="flex flex-col justify-between w-full h-full p-5 lg:pl-60 lg:pr-60">
             <div className="w-full h-4/5 pl-20 pr-20 text-white">
-                <div className="w-full h-full bg-green-900 rounded-2xl flex p-16 pl-12 pr-12">
+                <div className="w-full h-[calc(60vh-4rem)] bg-green-900 rounded-2xl flex p-16 pl-12 pr-12">
                     <div className="w-3/6 flex flex-col items-start justify-center">
                         <h1 className="text-5xl font-bold">Many Services For You and Flexibility</h1>
                         <p className="mt-3">Make all your work easier and faster
