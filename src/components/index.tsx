@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const IndexComponent: React.FC = () => {
     return (
-        <main className="flex flex-col justify-between w-full h-[calc(100vh-4rem)] p-5 lg:pl-60 lg:pr-60">
+        <main className="flex flex-col justify-between w-full h-full p-5 lg:pl-60 lg:pr-60">
             <div className="w-full h-4/5 pl-20 pr-20 text-white">
                 <div className="w-full h-full bg-green-900 rounded-2xl flex p-16 pl-12 pr-12">
                     <div className="w-3/6 flex flex-col items-start justify-center">
@@ -27,9 +27,9 @@ const IndexComponent: React.FC = () => {
             </div>
 
             {/* Container BarSlide */}
-            <div className="w-full">
-                <div>
-                    <div className="w-20 bg-black ">
+            <div className="w-full ">
+                <div className="w-full">
+                    <div className="w-20 h-20 bg-black ">
 
                     </div>
                 </div>
